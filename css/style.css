@@ -90,7 +90,7 @@ a:hover {
 	clear: both;
 	background-color: #a52130;
 }
-img {
+.gallery {
 	width: 30%;
 	float: left;
 	box-shadow: 10px 10px 5px #2a2a2a;
@@ -113,4 +113,11 @@ img {
 #montreal {
 	margin: 10px 20px 20px 10px;
 }
-
+#facebook {
+	position: fixed;
+	margin-top: 300px;
+}
+#twitter {
+	position:fixed;
+	margin-top: 370px;
+}
