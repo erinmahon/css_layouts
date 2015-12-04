@@ -34,10 +34,15 @@ a:link, a:visited {
 	text-decoration: none;
 	font-weight: bold;
 }
-#col-left-out, #col-center-out, #col-right-out {
+a:hover {
+	color: #aaaaaa;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#col-left-out, #col-center-out, #col-right-out, #col-center-wide-out {
 	float: left;
 }
-#col-left-in, #col-center-in, #col-right-in {
+#col-left-in, #col-center-in, #col-right-in, #col-center-wide-in {
 	padding: 2px 10px;
 }
 #col-left-out, #col-right-out {
@@ -46,6 +51,7 @@ a:link, a:visited {
 }
 #col-left-in, #col-right-in {
 	background-color: #ffffff;
+	color: #000000;
 }
 #col-left-out {
 
@@ -69,9 +75,42 @@ a:link, a:visited {
 #col-right-in {
 	margin: 20px;
 }
+#col-center-wide-out {
+	width: 75%;
+}
+#col-center-wide-in {
+	margin: 20px;
+	background-color: #aaaaaa;
+	color: #000000;
+}
 #footer {
 	height: 100px;
-	width: 0 auto;
+	width: 1000px;
+	margin: 0 auto;
 	clear: both;
 	background-color: #a52130;
 }
+img {
+	width: 30%;
+	float: left;
+	box-shadow: 10px 10px 5px #2a2a2a;
+}
+#panoramic {
+	margin: 20px 10px 10px 25px;
+}
+#cliffs {
+	margin: 20px 10px 10px 10px;
+}
+#elephant {
+	margin: 20px 20px 10px 10px;
+}
+#fall {
+	margin: 10px 10px 20px 25px;
+}
+#flowers {
+	margin: 10px 10px 20px 10px;
+}
+#montreal {
+	margin: 10px 20px 20px 10px;
+}
+
