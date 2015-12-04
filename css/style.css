@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: white;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+#col-left-out, #col-center-out, #col-right-out {
+	border: 1.5px solid red;
+	float: left;
+}
+#col-left-in, #col-center-in, #col-right-in {
+	border: 2px solid white;
+}
+#col-left-out, #col-right-out {
+	width: 24%;
+}
+#col-left-in, #col-right-in {
+	/*width: 21%;*/
+}
+#col-left-out {
+
+}
+#col-left-in {
+	margin: 20px;
+}
+#col-center-out {
+	width: 51%;
+}
+#col-center-in {
+	margin: 20px;
+}
+#col-right-out {
+	
+}
+#col-right-in {
+	margin: 20px;
+}
+#footer {
+	height: 100px;
+	width: 0 auto;
+	clear: both;
+	border: 1px solid blue;
+}
